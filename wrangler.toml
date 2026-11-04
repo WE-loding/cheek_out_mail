@@ -1,0 +1,9 @@
+name = "pmail-frontend"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./dist"
+
+[vars]
+# 生产环境变量（建议直接在 Cloudflare Pages 控制台设置）
+# VITE_APP_API_URL = "https://your-backend-api.com"
